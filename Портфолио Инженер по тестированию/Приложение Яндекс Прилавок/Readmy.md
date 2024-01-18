@@ -67,11 +67,17 @@
 ssh 97afa4f6-c12b-4d6c-9f97-09b3ed62eaaa@serverhub.praktikum-services.ru -p 4554 - подключение к серверу
 
 mkdir generallogs - создание папки “generallogs”
+
 cd generallogs - переход в папку “generallogs” для дальнейшего копирования файлов в нее
+
 cp //var/www/backend/packages/main/logs/combined.log logs1.log - копирование файла с логами “combined.log” из папки var/www/backend/packages/main/logs с переименованием в “logs1.log”
+
 cp //var/www/backend/packages/secondary/build/logs/combined.log logs2.log  - копирование файла с логами “combined.log” из папки var/www/backend/packages/secondary/build/logs с переименованием в “logs2.log”
+
 touch info.log - создание файла  для копирования в них нужных логов
+
 grep -R INFO ~/generallogs > info.log - копирование информационных логов путем фильтрации строк  содержащих текст “INFO” в файлах внутри папки “generallogs” и копированием их в файл “info.log”
+
 cat info.log - вывод содержимого файла “info.log”:
 
 /home/morty/generallogs/logs1.log:2023-07-26T04:30:32.798Z [INFO] [Main]: Server is listening at port 4000
