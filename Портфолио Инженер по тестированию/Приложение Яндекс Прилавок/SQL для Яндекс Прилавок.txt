@@ -1,0 +1,43 @@
+«адачи, дл€ которых нужно написать SQL-запросы:
+1.	ѕосчитай, сколько пользователей зарегистрировано в системе. Ёто таблица user_model. ¬ результате выведи только количество пользователей.
+2.	ƒобавь три новых разных продукта в таблицу product_model.
+3.	ѕосчитай количество продуктов в каждой категории и вывести id только тех категорий, в которых количество продуктов больше п€ти. Ёто таблица product_model. –езультат отсортируй в пор€дке возрастани€ количества продуктов.
+4.	¬ приложение хот€т добавить фичу Ч возможность вносить правки в заказы. —работает только с теми заказами, где:
+-	стоимость доставки (deliveryPrice) больше 500,
+-	стоит статус Ђзаказ формируетс€ї или Ђзаказ в доставкеї.
+Ќапиши запрос, который будет выводить в системе id всех заказов и возможность внести правки. Ќазови эту колонку update_order. ≈сли статус заказа позвол€ет вносить изменени€, то в колонку update_order нужно вывести yes. ≈сли правки внести нельз€ Ч вывести no. 
+5.	¬ыведи информацию о продуктах, цена которых находитс€ в диапазоне от 200 до 500. »нформаци€ по каждому продукту включает: название продукта, цену, название категории, к которой он относитс€.
+6.	ƒл€ каждой карточки выведи ее название и количество продуктов (productsCount) дл€ этой карточки. –езультат отсортируй по названию карточки.
+
+
+SQL-запросы:
+
+1.	SELECT COUNT(*)
+FROM user_model;
+
+2.	INSERT INTO product_model (name, price, weight, units, "categoryId") 
+VALUES ('Nemoloko', 180, 900, 'ml', 1), ('Kumys', 150, 500, 'ml', 1), ('Dodriy', 50, 200, 'ml', 1);
+
+3.	SELECT "categoryId" 
+FROM product_model 
+GROUP BY "categoryId" 
+HAVING COUNT("categoryId")>5 
+ORDER BY COUNT ("categoryId");
+
+4.	SELECT id, 
+	(CASE 
+	WHEN (status=0 OR status=1) AND "deliveryPrice">500 THEN 'yes' ELSE 'no' 
+	END) AS update_order 
+FROM order_model;
+
+5.	SELECT p.name, p.price, c.name AS category_name 
+FROM product_model AS p JOIN category_model AS c ON p."categoryId"=c.id 
+WHERE p.price BETWEEN 200 AND 500;
+
+
+6.	SELECT cm.name, SUM(k."productsCount") 
+FROM card_model AS cm FULL OUTER JOIN kit_model AS k ON cm.id=k."cardId" 
+GROUP BY cm.id 
+ORDER BY cm.name;
+ 
+
