@@ -1,30 +1,30 @@
-## :bookmark_tabs: Описание:
+п»ї## :bookmark_tabs: РћРїРёСЃР°РЅРёРµ:
 
-Яндекс Прилавок — приложение для заказа продуктов.
+РЇРЅРґРµРєСЃ РџСЂРёР»Р°РІРѕРє вЂ” РїСЂРёР»РѕР¶РµРЅРёРµ РґР»СЏ Р·Р°РєР°Р·Р° РїСЂРѕРґСѓРєС‚РѕРІ.
 
-## Содержание:
-1. [Отчет по тестированию API](##otchet)
-2. [Вывод информационных логов в консоль](##logs)
-3. [Локализация бага](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B1%D0%B0%D0%B3%D0%B0.docx)
-4. [SQL-запросы](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/SQL%20%D0%B4%D0%BB%D1%8F%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA.txt) 
-5. [Автотесты](https://github.com/Ilbina/Ilbina/tree/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/%D0%90%D0%B2%D1%82%D0%BE%D1%82%D0%B5%D1%81%D1%82%D1%8B%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA)
-
-
-
-# <a name=otchet> 1. Отчёт о тестировании веб-приложения Яндекс Прилавок
-
-   Тестирование API Яндекс Прилавка проводилось с использованием инструмента Postman.
-Для тестирования API составлен [чек-лист](https://docs.google.com/spreadsheets/d/1GlKXrnEtIPkPryVKBdC5tjvB9-Dz2nlxF95vYZDfTRE/edit?usp=drive_link), результаты тестов отмечены в нем же.
-
-В процессе тестрования собрана [Коллекция Postman (содержит как запросы по тестированию, так и запросы для локализации бага в задании 3)](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA.postman_collection.json)
+## РЎРѕРґРµСЂР¶Р°РЅРёРµ:
+1. [РћС‚С‡РµС‚ РїРѕ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЋ API](#otchet)
+2. [Р’С‹РІРѕРґ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹С… Р»РѕРіРѕРІ РІ РєРѕРЅСЃРѕР»СЊ](#logs)
+3. [Р›РѕРєР°Р»РёР·Р°С†РёСЏ Р±Р°РіР°](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B1%D0%B0%D0%B3%D0%B0.docx)
+4. [SQL-Р·Р°РїСЂРѕСЃС‹](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/SQL%20%D0%B4%D0%BB%D1%8F%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA.txt) 
+5. [РђРІС‚РѕС‚РµСЃС‚С‹](https://github.com/Ilbina/Ilbina/tree/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/%D0%90%D0%B2%D1%82%D0%BE%D1%82%D0%B5%D1%81%D1%82%D1%8B%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA)
 
 
-Из 52 тестов успешно прошло 25, не прошло — 25, пропущены из-за связанных багов - 2.
-Список багов, найденных при тестировании, разбит по приоритетам:
 
-	Блокирующие:  -
+# <a name=otchet> 1. РћС‚С‡С‘С‚ Рѕ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРё РІРµР±-РїСЂРёР»РѕР¶РµРЅРёСЏ РЇРЅРґРµРєСЃ РџСЂРёР»Р°РІРѕРє
+
+   РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ API РЇРЅРґРµРєСЃ РџСЂРёР»Р°РІРєР° РїСЂРѕРІРѕРґРёР»РѕСЃСЊ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РёРЅСЃС‚СЂСѓРјРµРЅС‚Р° Postman.
+Р”Р»СЏ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ API СЃРѕСЃС‚Р°РІР»РµРЅ [С‡РµРє-Р»РёСЃС‚](https://docs.google.com/spreadsheets/d/1GlKXrnEtIPkPryVKBdC5tjvB9-Dz2nlxF95vYZDfTRE/edit?usp=drive_link), СЂРµР·СѓР»СЊС‚Р°С‚С‹ С‚РµСЃС‚РѕРІ РѕС‚РјРµС‡РµРЅС‹ РІ РЅРµРј Р¶Рµ.
+
+Р’ РїСЂРѕС†РµСЃСЃРµ С‚РµСЃС‚СЂРѕРІР°РЅРёСЏ СЃРѕР±СЂР°РЅР° [РљРѕР»Р»РµРєС†РёСЏ Postman (СЃРѕРґРµСЂР¶РёС‚ РєР°Рє Р·Р°РїСЂРѕСЃС‹ РїРѕ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЋ, С‚Р°Рє Рё Р·Р°РїСЂРѕСЃС‹ РґР»СЏ Р»РѕРєР°Р»РёР·Р°С†РёРё Р±Р°РіР° РІ Р·Р°РґР°РЅРёРё 3)](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA.postman_collection.json)
+
+
+РР· 52 С‚РµСЃС‚РѕРІ СѓСЃРїРµС€РЅРѕ РїСЂРѕС€Р»Рѕ 25, РЅРµ РїСЂРѕС€Р»Рѕ вЂ” 25, РїСЂРѕРїСѓС‰РµРЅС‹ РёР·-Р·Р° СЃРІСЏР·Р°РЅРЅС‹С… Р±Р°РіРѕРІ - 2.
+РЎРїРёСЃРѕРє Р±Р°РіРѕРІ, РЅР°Р№РґРµРЅРЅС‹С… РїСЂРё С‚РµСЃС‚РёСЂРѕРІР°РЅРёРё, СЂР°Р·Р±РёС‚ РїРѕ РїСЂРёРѕСЂРёС‚РµС‚Р°Рј:
+
+	Р‘Р»РѕРєРёСЂСѓСЋС‰РёРµ:  -
 	
-	Критичные: 
+	РљСЂРёС‚РёС‡РЅС‹Рµ: 
 	https://ilbina.youtrack.cloud/issue/107-1/Pri-zaprose-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-deliveryTime06-deliveryTime-v-otvete-otsutstvuet-parametr	
 	https://ilbina.youtrack.cloud/issue/107-2/Pri-zaprose-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-deliveryTime22-deliveryTime-v-otvete-otsutstvuet-parametr	
 	https://ilbina.youtrack.cloud/issue/107-3/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-parametrom-deliveryTime-prihodit-otvet-s-kodom-200	
@@ -36,7 +36,7 @@
 	https://ilbina.youtrack.cloud/issue/107-23/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-c-pustym-znacheniem-v-kolichestve-tovara-prihodit-otvet-s-kodom-200
 	
 
-	Средний приоритет: 
+	РЎСЂРµРґРЅРёР№ РїСЂРёРѕСЂРёС‚РµС‚: 
 	https://ilbina.youtrack.cloud/issue/107-21/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-otricatelnym-parametrom-productsWeight-prihodit-otvet-s-kodom
 	https://ilbina.youtrack.cloud/issue/107-12/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-c-otricatelnym-znacheniem-id-tovara-prihodit-otvet-s-kodom-409
 	https://ilbina.youtrack.cloud/issue/107-25/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-s-pustym-id-tovara-prihodit-otvet-s-kodom-500
@@ -55,24 +55,24 @@
 	
 	https://ilbina.youtrack.cloud/issue/107-24/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-co-specsimvolami-v-id-tovara-prihodit-otvet-s-kodom-500
 	
-	Низкий приоритет: -
+	РќРёР·РєРёР№ РїСЂРёРѕСЂРёС‚РµС‚: -
 
-	Незначительные:  -
+	РќРµР·РЅР°С‡РёС‚РµР»СЊРЅС‹Рµ:  -
 
-  Итог: Несмотря на то, что блокирующих багов не найдено, есть существенные ошибки в работе приложения, которые приведут к отрицательному опыту пользователей и финансовой потере (заказ в нерабочее время доставки, ошибки в обработке запросов с количеством товаров) а так же часто встречающиеся ошибки сервера с кодом 500. Поэтому команда тестирования не рекомендует публикацию текущей версии АПИ до устранения всех багов.
+  РС‚РѕРі: РќРµСЃРјРѕС‚СЂСЏ РЅР° С‚Рѕ, С‡С‚Рѕ Р±Р»РѕРєРёСЂСѓСЋС‰РёС… Р±Р°РіРѕРІ РЅРµ РЅР°Р№РґРµРЅРѕ, РµСЃС‚СЊ СЃСѓС‰РµСЃС‚РІРµРЅРЅС‹Рµ РѕС€РёР±РєРё РІ СЂР°Р±РѕС‚Рµ РїСЂРёР»РѕР¶РµРЅРёСЏ, РєРѕС‚РѕСЂС‹Рµ РїСЂРёРІРµРґСѓС‚ Рє РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРјСѓ РѕРїС‹С‚Сѓ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№ Рё С„РёРЅР°РЅСЃРѕРІРѕР№ РїРѕС‚РµСЂРµ (Р·Р°РєР°Р· РІ РЅРµСЂР°Р±РѕС‡РµРµ РІСЂРµРјСЏ РґРѕСЃС‚Р°РІРєРё, РѕС€РёР±РєРё РІ РѕР±СЂР°Р±РѕС‚РєРµ Р·Р°РїСЂРѕСЃРѕРІ СЃ РєРѕР»РёС‡РµСЃС‚РІРѕРј С‚РѕРІР°СЂРѕРІ) Р° С‚Р°Рє Р¶Рµ С‡Р°СЃС‚Рѕ РІСЃС‚СЂРµС‡Р°СЋС‰РёРµСЃСЏ РѕС€РёР±РєРё СЃРµСЂРІРµСЂР° СЃ РєРѕРґРѕРј 500. РџРѕСЌС‚РѕРјСѓ РєРѕРјР°РЅРґР° С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ РЅРµ СЂРµРєРѕРјРµРЅРґСѓРµС‚ РїСѓР±Р»РёРєР°С†РёСЋ С‚РµРєСѓС‰РµР№ РІРµСЂСЃРёРё РђРџР РґРѕ СѓСЃС‚СЂР°РЅРµРЅРёСЏ РІСЃРµС… Р±Р°РіРѕРІ.
 
 
-# <a name=logs> 2. Для выведения информационных логов необходимо выполнить в консоли команды:
+# <a name=logs> 2. Р”Р»СЏ РІС‹РІРµРґРµРЅРёСЏ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹С… Р»РѕРіРѕРІ РЅРµРѕР±С…РѕРґРёРјРѕ РІС‹РїРѕР»РЅРёС‚СЊ РІ РєРѕРЅСЃРѕР»Рё РєРѕРјР°РЅРґС‹:
 
-ssh 97afa4f6-c12b-4d6c-9f97-09b3ed62eaaa@serverhub.praktikum-services.ru -p 4554 - подключение к серверу
+ssh 97afa4f6-c12b-4d6c-9f97-09b3ed62eaaa@serverhub.praktikum-services.ru -p 4554 - РїРѕРґРєР»СЋС‡РµРЅРёРµ Рє СЃРµСЂРІРµСЂСѓ
 
-mkdir generallogs - создание папки “generallogs”
-cd generallogs - переход в папку “generallogs” для дальнейшего копирования файлов в нее
-cp //var/www/backend/packages/main/logs/combined.log logs1.log - копирование файла с логами “combined.log” из папки var/www/backend/packages/main/logs с переименованием в “logs1.log”
-cp //var/www/backend/packages/secondary/build/logs/combined.log logs2.log  - копирование файла с логами “combined.log” из папки var/www/backend/packages/secondary/build/logs с переименованием в “logs2.log”
-touch info.log - создание файла  для копирования в них нужных логов
-grep -R INFO ~/generallogs > info.log - копирование информационных логов путем фильтрации строк  содержащих текст “INFO” в файлах внутри папки “generallogs” и копированием их в файл “info.log”
-cat info.log - вывод содержимого файла “info.log”:
+mkdir generallogs - СЃРѕР·РґР°РЅРёРµ РїР°РїРєРё вЂњgenerallogsвЂќ
+cd generallogs - РїРµСЂРµС…РѕРґ РІ РїР°РїРєСѓ вЂњgenerallogsвЂќ РґР»СЏ РґР°Р»СЊРЅРµР№С€РµРіРѕ РєРѕРїРёСЂРѕРІР°РЅРёСЏ С„Р°Р№Р»РѕРІ РІ РЅРµРµ
+cp //var/www/backend/packages/main/logs/combined.log logs1.log - РєРѕРїРёСЂРѕРІР°РЅРёРµ С„Р°Р№Р»Р° СЃ Р»РѕРіР°РјРё вЂњcombined.logвЂќ РёР· РїР°РїРєРё var/www/backend/packages/main/logs СЃ РїРµСЂРµРёРјРµРЅРѕРІР°РЅРёРµРј РІ вЂњlogs1.logвЂќ
+cp //var/www/backend/packages/secondary/build/logs/combined.log logs2.log  - РєРѕРїРёСЂРѕРІР°РЅРёРµ С„Р°Р№Р»Р° СЃ Р»РѕРіР°РјРё вЂњcombined.logвЂќ РёР· РїР°РїРєРё var/www/backend/packages/secondary/build/logs СЃ РїРµСЂРµРёРјРµРЅРѕРІР°РЅРёРµРј РІ вЂњlogs2.logвЂќ
+touch info.log - СЃРѕР·РґР°РЅРёРµ С„Р°Р№Р»Р°  РґР»СЏ РєРѕРїРёСЂРѕРІР°РЅРёСЏ РІ РЅРёС… РЅСѓР¶РЅС‹С… Р»РѕРіРѕРІ
+grep -R INFO ~/generallogs > info.log - РєРѕРїРёСЂРѕРІР°РЅРёРµ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹С… Р»РѕРіРѕРІ РїСѓС‚РµРј С„РёР»СЊС‚СЂР°С†РёРё СЃС‚СЂРѕРє  СЃРѕРґРµСЂР¶Р°С‰РёС… С‚РµРєСЃС‚ вЂњINFOвЂќ РІ С„Р°Р№Р»Р°С… РІРЅСѓС‚СЂРё РїР°РїРєРё вЂњgenerallogsвЂќ Рё РєРѕРїРёСЂРѕРІР°РЅРёРµРј РёС… РІ С„Р°Р№Р» вЂњinfo.logвЂќ
+cat info.log - РІС‹РІРѕРґ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ С„Р°Р№Р»Р° вЂњinfo.logвЂќ:
 
 /home/morty/generallogs/logs1.log:2023-07-26T04:30:32.798Z [INFO] [Main]: Server is listening at port 4000
 /home/morty/generallogs/logs1.log:2023-07-26T04:30:32.831Z [INFO] [Main]: [SOAP Client] Soap is listening at /api/wsdl
