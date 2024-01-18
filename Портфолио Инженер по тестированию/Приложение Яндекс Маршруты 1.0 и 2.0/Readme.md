@@ -12,15 +12,14 @@
 - [тестированеи фронтенда в подменой ответа в Charles](https://github.com/Ilbina/Ilbina/tree/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D1%8B%201.0%20%D0%B8%202.0/%D0%9F%D0%BE%D0%B4%D0%BC%D0%B5%D0%BD%D0%B0%20Charles)
 - [составление тест-отчета с задачами в рамках одного спринта](#otchet)
 
-<a name=maindmap1.0> #Maindmap версии 1.0
+# <a name=maindmap1.0> Maindmap версии 1.0
 ![Alt-текст](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D1%8B%201.0%20%D0%B8%202.0/Mindmap1.0.png)
 
-##<a name=maindmap2.0> #Maindmap версии 2.0
+# <a name=maindmap2.0> Maindmap версии 2.0
 ![Alt-текст](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D1%8B%201.0%20%D0%B8%202.0/Mindmap2.0.png)
 
 
-<a name=otchet> 
-##Тест-отчет о тестировании фичей приложения Яндекс Маршруты
+# <a name=otchet> Тест-отчет о тестировании фичей приложения Яндекс Маршруты
 Версия приложения: 2.0
 Команда тестирования: Хусаинова Ильбина, 10-я кагорта, курс “Инженер по тестированию плюс”
 Период тестирования: 26-30 апреля 2023
