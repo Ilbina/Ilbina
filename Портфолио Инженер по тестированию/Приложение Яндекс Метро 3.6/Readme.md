@@ -20,26 +20,25 @@
 
 Было проведено тестирование про спроектированным тестам. 
 Из 138 успешно прошло 107, не прошло — 25 (пропущены - 7).
+
 Список багов, найденных при тестировании, разбит по приоритетам:
+
 	Блокирующие: нет
+
 	Критичные: 
 	https://ilbina.youtrack.cloud/issue/106-7/V-nastrojkah-prilozheniya-Anglijskij-yazyk-dostupen-ne-dlya-vseh-gorodov
 	
 	
 	Средний приоритет:
-	https://ilbina.youtrack.cloud/issue/106-1/Pri-otsutstvii-internet-soedineniya-v-prilozhenii-soobshenie-ob-oshibke-ne-poyavlyaetsya.
-	
+	https://ilbina.youtrack.cloud/issue/106-1/Pri-otsutstvii-internet-soedineniya-v-prilozhenii-soobshenie-ob-oshibke-ne-poyavlyaetsya.	
 	https://ilbina.youtrack.cloud/issue/106-2/Vremennoj-interval-marshruta-ne-obnovlyaetsya-kogda-tekushee-vremya-bolshe-vremeni-pribytiya
 https://ilbina.youtrack.cloud/issue/106-9/Pri-sohranenii-stancij-v-istorii-narushen-poryadok-ih-otobrazheniya.
 	
 	
 	Низкий приоритет: 
-	https://ilbina.youtrack.cloud/issue/106-3/Svernutaya-kartochka-marshruta-pri-smene-orientacii-ekrana-s-landshaftnoj-na-portretnuyu-stanovitsya-otkrytoj.
-	
-	https://ilbina.youtrack.cloud/issue/106-5/Svernutaya-kartochka-marshruta-pri-smene-orientacii-ekrana-s-portretnoj-na-landshaftnuyu-stanovitsya-otkrytoj.
-	
-	https://ilbina.youtrack.cloud/issue/106-4/Avtomaticheskaya-smena-temy-so-svetloj-na-temnuyu-ne-srabatyvaet.
-	
+	https://ilbina.youtrack.cloud/issue/106-3/Svernutaya-kartochka-marshruta-pri-smene-orientacii-ekrana-s-landshaftnoj-na-portretnuyu-stanovitsya-otkrytoj.	
+	https://ilbina.youtrack.cloud/issue/106-5/Svernutaya-kartochka-marshruta-pri-smene-orientacii-ekrana-s-portretnoj-na-landshaftnuyu-stanovitsya-otkrytoj.	
+	https://ilbina.youtrack.cloud/issue/106-4/Avtomaticheskaya-smena-temy-so-svetloj-na-temnuyu-ne-srabatyvaet.	
 	https://ilbina.youtrack.cloud/issue/106-6/Pri-smene-orientacii-ekrana-masshtab-marshruta-izmenyaetsya.
 	
 	Незначительные: нет
@@ -52,8 +51,9 @@ https://ilbina.youtrack.cloud/issue/106-9/Pri-sohranenii-stancij-v-istorii-narus
 
    Еще замечены фичи, которые считаю несомненным плюсом, и для проверки их корректности необходимо произвести дополнения в требования
 1) в Настройках кроме описанных опций еще есть разделы: 
-  a) привязки проездной карты или карты оплаты,
-  b) чек-бокс уведомлений,
+a) привязки проездной карты или карты оплаты, 
+b) чек-бокс уведомлений,
+
 2) при выборе языка присутствует родной язык в зависимости от города (казахский, татарский, армянский, азербайджанский, белорусский, болгарский, грузинский, греческий, украинский, немецкий, турецкий, чешский, шведский, финский, венгерский, Итальянский, польский, португальский, румынский, узбекский).
 
 Итог: С учётом того, что блокирующих багов не найдено, а критические дефекты не расположены в основных пользовательских сценариях, команда тестирования не против публикации новой версии приложения в Google Play.

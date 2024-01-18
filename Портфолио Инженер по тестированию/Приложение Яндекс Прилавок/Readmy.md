@@ -2,7 +2,7 @@
 
 Яндекс Прилавок — приложение для заказа продуктов.
 
-## Содержание
+## Содержание:
 1. [Отчет по тестированию API](##otchet)
 2. [Вывод информационных логов в консоль](##logs)
 3. [Локализация бага](https://github.com/Ilbina/Ilbina/blob/main/%D0%9F%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE%20%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%D0%BF%D0%BE%20%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%AF%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%20%D0%9F%D1%80%D0%B8%D0%BB%D0%B0%D0%B2%D0%BE%D0%BA/%D0%9B%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B1%D0%B0%D0%B3%D0%B0.docx)
@@ -25,57 +25,38 @@
 	Блокирующие:  -
 	
 	Критичные: 
-	https://ilbina.youtrack.cloud/issue/107-1/Pri-zaprose-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-deliveryTime06-deliveryTime-v-otvete-otsutstvuet-parametr
-	
-	https://ilbina.youtrack.cloud/issue/107-2/Pri-zaprose-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-deliveryTime22-deliveryTime-v-otvete-otsutstvuet-parametr
-	
-	https://ilbina.youtrack.cloud/issue/107-3/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-parametrom-deliveryTime-prihodit-otvet-s-kodom-200
-	
-	https://ilbina.youtrack.cloud/issue/107-9/Pri-otpravke-zaprosa-DELETE-api-v1-orders-id-c-sushestvuyushim-id-korziny-prihodit-oshibka-s-kodom-404
-	
-	https://ilbina.youtrack.cloud/issue/107-26/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-s-pustym-parametrom-productsList-v-otvete-prihodit-kod-200
-	
-	https://ilbina.youtrack.cloud/issue/107-17/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-parametrom-productsCount-prihodit-otvet-s-kodom-200
-	
+	https://ilbina.youtrack.cloud/issue/107-1/Pri-zaprose-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-deliveryTime06-deliveryTime-v-otvete-otsutstvuet-parametr	
+	https://ilbina.youtrack.cloud/issue/107-2/Pri-zaprose-fast-delivery-v3.1.1-calculate-delivery.xml-s-parametrom-deliveryTime22-deliveryTime-v-otvete-otsutstvuet-parametr	
+	https://ilbina.youtrack.cloud/issue/107-3/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-parametrom-deliveryTime-prihodit-otvet-s-kodom-200	
+	https://ilbina.youtrack.cloud/issue/107-9/Pri-otpravke-zaprosa-DELETE-api-v1-orders-id-c-sushestvuyushim-id-korziny-prihodit-oshibka-s-kodom-404	
+	https://ilbina.youtrack.cloud/issue/107-26/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-s-pustym-parametrom-productsList-v-otvete-prihodit-kod-200	
+	https://ilbina.youtrack.cloud/issue/107-17/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-parametrom-productsCount-prihodit-otvet-s-kodom-200	
 	https://ilbina.youtrack.cloud/issue/107-19/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-pustym-znacheniem-parametra-productsWeight-prihodit-otvet-s
-	
 	https://ilbina.youtrack.cloud/issue/107-13/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-c-otricatelnym-znacheniem-kolichestva-tovara-prihodit-otvet-s-kodom-200-uspeshnaya
-	
 	https://ilbina.youtrack.cloud/issue/107-23/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-c-pustym-znacheniem-v-kolichestve-tovara-prihodit-otvet-s-kodom-200
 	
 
 	Средний приоритет: 
-	
 	https://ilbina.youtrack.cloud/issue/107-21/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-otricatelnym-parametrom-productsWeight-prihodit-otvet-s-kodom
-	
 	https://ilbina.youtrack.cloud/issue/107-12/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-c-otricatelnym-znacheniem-id-tovara-prihodit-otvet-s-kodom-409
-	
 	https://ilbina.youtrack.cloud/issue/107-25/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-s-pustym-id-tovara-prihodit-otvet-s-kodom-500
-	
-	
 	https://ilbina.youtrack.cloud/issue/107-22/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-co-specsimvolami-v-kolichestve-tovara-prihodit-otvet-s-kodom-200
-	
 	https://ilbina.youtrack.cloud/issue/107-16/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-otsutstviem-parametra-deliveryTime-prihodit-otvet-s-kodom-500
-	
 	https://ilbina.youtrack.cloud/issue/107-15/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-bolshim-chislom-v-parametre-deliveryTime-prihodit-otvet-s
-	
 	https://ilbina.youtrack.cloud/issue/107-4/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-bukvami-v-znachenii-parametra-deliveryTime-prihodit-otvet-s 
-	https://ilbina.youtrack.cloud/issue/107-5/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-otricatelnym-znacheniem-parametra-deliveryTime-prihodit-otvet
-	
+	https://ilbina.youtrack.cloud/issue/107-5/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-otricatelnym-znacheniem-parametra-deliveryTime-prihodit-otvet	
 	https://ilbina.youtrack.cloud/issue/107-7/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-otsutstviem-parametra-productsCount-prihodit-otvet-s-kodom
-	
 	https://ilbina.youtrack.cloud/issue/107-6/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-bukvami-v-znachenii-parametra-productsCount-prihodit-otvet-s 
 	https://ilbina.youtrack.cloud/issue/107-18/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-otricatelnym-chislom-v-parametre-productsCount-prihodit-otvet
-	
 	https://ilbina.youtrack.cloud/issue/107-20/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-otsutstviem-parametra-productsWeight-prihodit-otvet-s-kodom
 	
 	https://ilbina.youtrack.cloud/issue/107-10/Pri-otpravke-zaprosa-fast-delivery-v3.1.1-calculate-delivery.xml-s-bukvami-v-znachenii-parametra-productsWeight-prihodit-otvet-s
 	https://ilbina.youtrack.cloud/issue/107-27/Pri-otpravke-zaprosa-POST-fast-delivery-v3.1.1-calculate-delivery.xml-s-telom-v-formate-json-prihodit-otvet-s-kodom-500
 	
-	https://ilbina.youtrack.cloud/issue/107-24/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-co-specsimvolami-v-id-tovara-
-	prihodit-otvet-s-kodom-500
+	https://ilbina.youtrack.cloud/issue/107-24/Pri-otpravke-zaprosa-PUT-api-v1-orders-id-co-specsimvolami-v-id-tovara-prihodit-otvet-s-kodom-500
 	
 	Низкий приоритет: -
+
 	Незначительные:  -
 
   Итог: Несмотря на то, что блокирующих багов не найдено, есть существенные ошибки в работе приложения, которые приведут к отрицательному опыту пользователей и финансовой потере (заказ в нерабочее время доставки, ошибки в обработке запросов с количеством товаров) а так же часто встречающиеся ошибки сервера с кодом 500. Поэтому команда тестирования не рекомендует публикацию текущей версии АПИ до устранения всех багов.
