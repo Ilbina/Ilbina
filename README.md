@@ -16,11 +16,7 @@
 
 ### 💻 Технический стэк:
 
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white)  ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=plastic&logo=swagger&logoColor=white) ![Excel](https://img.shields.io/badge/%20Excel-green%20?style=plastic)  ![Charles](https://img.shields.io/badge/Charles-%20?style=plastic&color=pink) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-
-Youtrack
-Yandex.Tracker
-Yandex TMS
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=plastic&logo=postgresql&logoColor=white)  ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=plastic&logo=swagger&logoColor=white) ![Excel](https://img.shields.io/badge/%20Excel-green%20?style=plastic)  ![Charles](https://img.shields.io/badge/Charles-%20?style=plastic&color=pink) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white)  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Youtrack](https://img.shields.io/badge/YouTrack-8A2BE2) ![Yandex.Tracker](https://img.shields.io/badge/YandexTracker-45BAB3) Yandex TMS
 DevTools
 
 ---
